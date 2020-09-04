@@ -1,0 +1,34 @@
+:root{
+    --card: #ffffff;
+    --body: #e8e7e7;
+}
+
+body{
+    background-color: var(--body);
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    background-color: var(--card);
+    border-radius: 5px;
+}
+
+.card-image img{
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center 45%;
+}
+
+.card-body{
+    text-align: center;
+}
